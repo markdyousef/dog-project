@@ -14670,7 +14670,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="k">import</span> <span class="n">load_files</span>       
@@ -14714,6 +14714,17 @@ div#notebook {
 <div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Using TensorFlow backend.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>There are 133 total dog categories.
 There are 8351 total dog images.
@@ -14740,7 +14751,7 @@ There are 836 test dog images.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -14833,7 +14844,7 @@ There are 836 test dog images.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -16123,7 +16134,7 @@ ZnFGZ3RG90RnzOKMzuiM7on+f+d2bpWlV34DAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># returns &quot;True&quot; if face is detected in image stored at img_path</span>
@@ -16229,7 +16240,7 @@ Face detected in dogs: False 89, True 11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">ResNet50</span>
@@ -16246,7 +16257,7 @@ Face detected in dogs: False 89, True 11
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load weights</span>
@@ -16334,7 +16345,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.preprocessing</span> <span class="k">import</span> <span class="n">image</span>                  
@@ -16371,7 +16382,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">preprocess_input</span><span class="p">,</span> <span class="n">decode_predictions</span>
@@ -16399,7 +16410,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### returns &quot;True&quot; if a dog is detected in the image stored at img_path</span>
@@ -16636,7 +16647,7 @@ Train (20 epochs):</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Conv2D</span><span class="p">,</span> <span class="n">MaxPooling2D</span><span class="p">,</span> <span class="n">GlobalAveragePooling2D</span>
@@ -17325,7 +17336,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Obtain bottleneck features from another pre-trained CNN.</span>
@@ -17359,7 +17370,7 @@ test_{network} = bottleneck_features['test']</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Define your architecture.</span>
@@ -17387,9 +17398,9 @@ test_{network} = bottleneck_features['test']</code></pre>
 <pre>_________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-global_average_pooling2d_1 ( (None, 2048)              0         
+global_average_pooling2d_2 ( (None, 2048)              0         
 _________________________________________________________________
-dense_1 (Dense)              (None, 133)               272517    
+dense_2 (Dense)              (None, 133)               272517    
 =================================================================
 Total params: 272,517.0
 Trainable params: 272,517.0
@@ -17513,7 +17524,7 @@ Epoch 4/4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Load the model weights with the best validation loss.</span>
@@ -17536,7 +17547,7 @@ Epoch 4/4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Calculate classification accuracy on the test dataset.</span>
@@ -17594,7 +17605,7 @@ Epoch 4/4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">extract_bottleneck_features</span> <span class="k">import</span> <span class="o">*</span>
@@ -17636,7 +17647,7 @@ Epoch 4/4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Write your algorithm.</span>
@@ -17648,6 +17659,8 @@ Epoch 4/4
     <span class="k">if</span> <span class="p">(</span><span class="n">contains_face</span> <span class="ow">or</span> <span class="n">contains_dog</span><span class="p">):</span>
         <span class="n">img</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">image_path</span><span class="p">)</span>
         <span class="n">breed</span> <span class="o">=</span> <span class="n">predict_breed</span><span class="p">(</span><span class="n">image_path</span><span class="p">)</span>
+        <span class="n">obj</span> <span class="o">=</span> <span class="s1">&#39;Human&#39;</span> <span class="k">if</span> <span class="n">contains_face</span> <span class="k">else</span> <span class="s1">&#39;Dog&#39;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">obj</span><span class="p">))</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">),</span> <span class="n">breed</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;error&#39;</span><span class="p">)</span>
@@ -17674,7 +17687,7 @@ Epoch 4/4
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Execute your algorithm from Step 6 on</span>
@@ -17698,7 +17711,8 @@ Epoch 4/4
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) English_springer_spaniel
+<pre>Hello Human
+AxesImage(54,36;334.8x217.44) English_springer_spaniel
 </pre>
 </div>
 </div>
@@ -18925,7 +18939,7 @@ AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">human_files</span><span class="p">[</span><span class="mi">10</span><span class="p">])</span>
@@ -18945,7 +18959,8 @@ AAAAAElFTkSuQmCC
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Silky_terrier
+<pre>Hello Human
+AxesImage(54,36;334.8x217.44) Silky_terrier
 </pre>
 </div>
 </div>
@@ -20113,7 +20128,7 @@ zuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhE
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">human_files</span><span class="p">[</span><span class="mi">50</span><span class="p">])</span>
@@ -20133,7 +20148,8 @@ zuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhEdMYszuiMzuhE
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Bullmastiff
+<pre>Hello Human
+AxesImage(54,36;334.8x217.44) Bullmastiff
 </pre>
 </div>
 </div>
@@ -21921,7 +21937,7 @@ iUfCZbK4xCUu8Ui4TBaXuMQlHgn/D6mvLvi/EoZNAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[107]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">human_files</span><span class="p">[</span><span class="mi">300</span><span class="p">])</span>
@@ -21941,7 +21957,8 @@ iUfCZbK4xCUu8Ui4TBaXuMQlHgn/D6mvLvi/EoZNAAAAAElFTkSuQmCC
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) American_foxhound
+<pre>Hello Human
+AxesImage(54,36;334.8x217.44) American_foxhound
 </pre>
 </div>
 </div>
@@ -23412,7 +23429,7 @@ KlSosC5UyqJChQrrQqUsKlSosC5UyqJChQrrQqUsKlSosC78F11FuGWUMyt8AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">test_files</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
@@ -23432,7 +23449,8 @@ KlSosC5UyqJChQrrQqUsKlSosC5UyqJChQrrQqUsKlSosC78F11FuGWUMyt8AAAAAElFTkSuQmCC
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Doberman_pinscher
+<pre>Hello Dog
+AxesImage(54,36;334.8x217.44) Doberman_pinscher
 </pre>
 </div>
 </div>
@@ -26032,7 +26050,7 @@ G0+sVlcAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">test_files</span><span class="p">[</span><span class="mi">100</span><span class="p">])</span>
@@ -26052,7 +26070,8 @@ G0+sVlcAAAAASUVORK5CYII=
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) American_staffordshire_terrier
+<pre>Hello Dog
+AxesImage(54,36;334.8x217.44) American_staffordshire_terrier
 </pre>
 </div>
 </div>
@@ -27555,7 +27574,7 @@ lHkWVM94xqfMs6B6xjM+ZZ4F1TOe8SnzLKie8YxPmf8XQclFSfYm3IwAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">test_files</span><span class="p">[</span><span class="mi">200</span><span class="p">])</span>
@@ -27575,7 +27594,8 @@ lHkWVM94xqfMs6B6xjM+ZZ4F1TOe8SnzLKie8YxPmf8XQclFSfYm3IwAAAAASUVORK5CYII=
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Beagle
+<pre>Hello Dog
+AxesImage(54,36;334.8x217.44) Beagle
 </pre>
 </div>
 </div>
@@ -28860,7 +28880,7 @@ wV/imcKlwV/imcKlwV/imcKlwV/imcL/AVSjJLvClJffAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">test_files</span><span class="p">[</span><span class="mi">300</span><span class="p">])</span>
@@ -28880,7 +28900,8 @@ wV/imcKlwV/imcKlwV/imcKlwV/imcL/AVSjJLvClJffAAAAAElFTkSuQmCC
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Icelandic_sheepdog
+<pre>Hello Dog
+AxesImage(54,36;334.8x217.44) Icelandic_sheepdog
 </pre>
 </div>
 </div>
@@ -32398,7 +32419,7 @@ AAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">run</span><span class="p">(</span><span class="n">test_files</span><span class="p">[</span><span class="mi">400</span><span class="p">])</span>
@@ -32418,7 +32439,8 @@ AAAASUVORK5CYII=
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>AxesImage(54,36;334.8x217.44) Cardigan_welsh_corgi
+<pre>Hello Dog
+AxesImage(54,36;334.8x217.44) Cardigan_welsh_corgi
 </pre>
 </div>
 </div>
